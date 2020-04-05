@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+        android:text="Subject ID = "
+        android:textSize="22dp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textviewID"
+        android:text="ID Show Here"
+        android:textSize="22dp"
+        android:textColor="#000"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/text1"
+        android:layout_toEndOf="@+id/text1"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textviewSubjectName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject Name Show Here"
+        android:textColor="#2196F3"
+        android:textSize="20dp"
+        android:layout_below="@+id/textviewID"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

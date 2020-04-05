@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Application_demo</string>
+    <string name="load_json_from_server">LOAD JSON FROM SERVER</string>
+</resources>
